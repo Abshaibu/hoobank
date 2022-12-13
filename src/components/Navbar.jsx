@@ -39,9 +39,9 @@ const Navbar = () => {
                     <ul className="list-none flex justify-end items-start flex-1 flex-col">
                         <li className="font-poppins font-medium cursor-pointer text-[16px] text-white mb-4"><a href="#home">Home</a>
                         </li>
-                        <li className="font-poppins font-medium cursor-pointer text-[16px] text-dimWhite mb-4"><a href="#features">Features</a>
+                        <li className="font-poppins font-medium cursor-pointer text-[16px] text-dimWhite mb-4"><a href="#solution">Features</a>
                         </li>
-                        <li className="font-poppins font-medium cursor-pointer text-[16px] text-dimWhite mb-4"><a href="#product">Product</a>
+                        <li className="font-poppins font-medium cursor-pointer text-[16px] text-dimWhite mb-4"><a href="#about-us">About Us</a>
                         </li>
                         <li className="font-poppins font-medium cursor-pointer text-[16px] text-dimWhite mb-0"><a href="#clients">Clients</a>
                         </li>
