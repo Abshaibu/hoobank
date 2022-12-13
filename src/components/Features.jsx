@@ -1,11 +1,11 @@
 import React from 'react'
 import bill from '../assets/bill.png'
 import card from '../assets/card.png'
-import star from '../assets/star.svg'
+import star from '../assets/Star.svg'
 import Appstore from '../assets/apple.svg'
 import Playstore from '../assets/google.svg'
-import shield from '../assets/shield.svg'
-import send from '../assets/send.svg'
+import shield from '../assets/Shield.svg'
+import send from '../assets/Send.svg'
 import CTA from './CTA'
 
 const Features = () => { 
