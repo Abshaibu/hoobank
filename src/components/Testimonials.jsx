@@ -11,7 +11,8 @@ import CTA from './CTA'
 
 const Testimonials = () => {
     return (
-        <section id="about-us" className="container mx-auto">
+        <section id="about-us" className="container mx-auto relative">
+            <div className="absolute about__gradient rounded-full top-[13rem] -right-[25.5rem]" />
             <div className="md:flex mb-20 block justify-between items-center">
                 <div className="md:mb-0 mb-8">
                     <h2 className="md:leading-[76px]">

@@ -12,7 +12,7 @@ const Footer = () => {
                 <div className="border-b pb-8 border-[#3F3E45] flex gap-6 flex-wrap justify-between">
                     <div className="md:w-auto w-full md:mb-0 mb-6">
                         <img className="md:w-[266px] w-[180px]" src={logo} alt="logo" />
-                        <p className="mt-6 w-[312px]">
+                        <p className="mt-6 w-full max-w-[312px]">
                             A new way to make the payments easy, reliable and secure.
                         </p>
                     </div>

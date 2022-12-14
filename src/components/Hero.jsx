@@ -6,9 +6,10 @@ import Discount from '../assets/Discount.svg'
 
 const Hero = () => {
     return (
-        <section>
+        <section className="">
             <div className="md:ml-[10%] max-[1023px]:container md:flex block justify-between max-[1023px]:mx-auto">
-                <div className="xs:px-0 px-4 relative md:mt-[6.5rem] mt-[3.5rem]">
+                <div className="xs:px-0 px-4 relative z-[2] md:mt-[6.5rem] mt-[3.5rem]">
+                    <div className="absolute -z-[1] w-[195px] h-[324px] bg-white blur-[225px] rounded-full -left-[13.5rem]"></div>
                     <div className="bg-discount-gradient mb-5 flex max-w-[388px] w-full h-10 xs:gap-4 gap-[0.5rem] items-center rounded-lg max-[619px]:mb-8">
                         <img src={Discount} alt="dicount" className="w-8 h-8 ml-2" />
                         <p className="xs:text-sm text-[0.8rem]">
@@ -19,8 +20,8 @@ const Hero = () => {
                         </p>
                     </div>
                     <h1 className="text-white relative hero-title font-semibold tracking-[0.01rem]">
-                        <a href="#" className="p-[2px] arrow xs:w-[140px] xs:h-[140px] bg-blue-gradient rounded-full block absolute md:right-11 right-0 w-[120px] h-[120px] xs:top-0 -top-4">
-                            <div className="bg-primary font-medium text-lg w-full h-full rounded-full flex items-center justify-center">
+                        <a href="#" className="p-[2px] arrow xs:w-[140px] xs:h-[140px] bg-blue-gradient rounded-full block absolute md:right-11 right-0 w-[110px] h-[110px] xs:top-0 -top-4">
+                            <div className="bg-primary font-medium text-sm xs:text-lg w-full h-full rounded-full flex items-center justify-center">
                                 <span className="text-gradient">
                                     <span>
                                         Get
@@ -40,7 +41,9 @@ const Hero = () => {
                         We examine annual percentage rates, annual fees.
                     </p>
                 </div>
-                <div className="max-[1023px]:mt-20">
+                <div className="max-[1023px]:mt-20 relative z-[2]">
+                    <div className="absolute robot rounded-full -top-[123px] left-[5.5rem]" />
+                    <div className="absolute w-[195px] h-[324px] pink__gradient blur-[225px] rounded-full z-0 left-[10.5rem]"/>
                     <img src={Robot} alt="robot" className="max-w-[645px] w-full h-[100%]" />
                 </div>
             </div>

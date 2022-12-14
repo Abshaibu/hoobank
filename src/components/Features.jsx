@@ -59,7 +59,9 @@ const Features = () => {
             </div>
 
             <div className="container mx-auto my-20 md:flex block justify-between items-center">
-                <div className="max-w-[513px] w-full">
+                <div className="max-w-[513px] w-full relative z-[2]">
+                    <div className="absolute white__gradient rounded-full -top-[183px] -left-[30.5rem]" />
+                    <div className="absolute w-[276px] h-[324px] pink__gradient blur-[225px] rounded-full z-0 -left-[21.5rem]" />
                     <img src={bill} alt="bill" />
                 </div>
                 <div className="md:mb-0 mb-16">

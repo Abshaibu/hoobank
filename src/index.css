@@ -20,6 +20,10 @@
   font-size: 1.065rem;
 }
 
+#root {
+  overflow-x: hidden;
+}
+
 body {
   height: 100vh;
 }
@@ -65,6 +69,14 @@ img {
 .container {
   max-width: 1170px;
   width: 90%;
+}
+
+.robot {
+  z-index: -1;
+  background: linear-gradient(180deg, rgba(188, 165, 255, 0) 0%, #214D76 100%);
+  filter: blur(61.5px);
+  width: 334px;
+  height: 571px;
 }
 
 .text-gradient {
@@ -168,10 +180,22 @@ img {
 
 .pink__gradient {
   background: linear-gradient(90deg, #f4c4f3 0%, #fc67fa 100%);
-  filter: blur(900px);
+  filter: blur(200px);
 }
 
 .white__gradient {
+  height: 471px;
+  width: 300px;
   background: rgba(255, 255, 255, 0.6);
-  filter: blur(750px);
+  filter: blur(375px);
+}
+
+.about__gradient {
+  position: absolute;
+  width: 436.52px;
+  height: 544.07px;
+  background: linear-gradient(90deg, #1A2980 0%, #26D0CE 100%);
+  filter: blur(325px);
+  border-radius: 200px;
+  transform: rotate(47.46deg);
 }
