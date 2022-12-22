@@ -7,7 +7,7 @@ import Linkedin from '../assets/linkedin.svg'
 
 const Footer = () => {
     return (
-        <footer className="bg-[#0b0a0c99] pt-14 p-8">
+        <footer className="bg-[#0b0a0c99] pt-14 xs:p-8 pb-8">
             <div className="container mx-auto">
                 <div className="border-b pb-8 border-[#3F3E45] flex gap-6 flex-wrap justify-between">
                     <div className="md:w-auto w-full md:mb-0 mb-6">

@@ -11,7 +11,7 @@ import CTA from './CTA'
 const Features = () => { 
     return (
         <section id="solution" className="mb-32">
-            <div className="container mx-auto mt-10 md:flex block justify-between items-center">
+            <div className="container mx-auto mt-10 md:flex-row flex-col flex justify-between items-center">
                 <div className="md:mb-0 mb-16">
                     <h2 className="md:leading-[76px]">
                         You do the business,<br /> we’ll handle the money.
@@ -58,7 +58,7 @@ const Features = () => {
                 </div>
             </div>
 
-            <div className="container mx-auto my-20 md:flex block justify-between items-center">
+            <div className="container mx-auto my-20 md:flex-row flex-col flex justify-between items-center">
                 <div className="max-w-[513px] w-full relative z-[2]">
                     <div className="absolute white__gradient rounded-full -top-[183px] -left-[30.5rem]" />
                     <div className="absolute w-[276px] h-[324px] pink__gradient blur-[225px] rounded-full z-0 -left-[21.5rem]" />
@@ -78,7 +78,7 @@ const Features = () => {
                 </div>
             </div>
 
-            <div className="container mx-auto md:flex block justify-between items-center">
+            <div className="container mx-auto md:flex-row flex-col flex justify-between items-center">
                 <div className="md:mb-0 mb-16">
                     <h2 className="md:leading-[76px]">
                         Find a better card deal <br/> in few easy steps.

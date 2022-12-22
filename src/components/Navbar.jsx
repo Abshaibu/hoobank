@@ -7,7 +7,7 @@ import close from '../assets/close.svg';
 const Navbar = () => {
     const [showMenu, setShowMenu] = useState(false);
     return (
-        <header className="py-8">
+        <header className="py-8 relative z-[10]">
             <div className="container mx-auto relative flex items-center justify-between">
                 <div className="navbar--logo">
                     <img src={logo} alt="logo" className="w-[128px] h-[32px]"/>

@@ -13,10 +13,10 @@ const Testimonials = () => {
     return (
         <section id="about-us" className="container mx-auto relative">
             <div className="absolute about__gradient rounded-full top-[13rem] -right-[25.5rem]" />
-            <div className="md:flex mb-20 block justify-between items-center">
-                <div className="md:mb-0 mb-8">
+            <div className="mb-20 md:flex-row flex-col flex justify-between items-center">
+                <div className="md:mb-0 mb-8 self-baseline xs:self-center">
                     <h2 className="md:leading-[76px]">
-                        What people are <br/> saying about us
+                        What people are <br className="hidden xs:block"/> saying about us
                     </h2>
                 </div>
                 <p className="w-full max-w-[450px]">
